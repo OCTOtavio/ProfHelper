@@ -1,0 +1,231 @@
+{
+    "Configuracoes": {
+        "CorrecaoIA": true,
+        "DeteccaoCola": true,
+        "VersaoBanco": "1.0"
+    },
+    "Provas": {
+        "Matematica_Bimestre_1": {
+            "Nome": "Matemática - Bimestre 1",
+            "Disciplina": "Matemática",
+            "Turma": "2º EM",
+            "Data": "2026-06-02",
+            "Versoes": {
+                "A": {
+                    "Questoes": {
+                        "1": {
+                            "Type": "Radio",
+                            "Question": "Questão 1",
+                            "Answer": "A",
+                            "Weight": 1,
+                            "Required": true
+                        },
+                        "2": {
+                            "Type": "Choices",
+                            "Question": "Questão 2",
+                            "Answer": [
+                                "B",
+                                "C",
+                                "D"
+                            ],
+                            "Weight": 1,
+                            "Required": true
+                        },
+                        "3": {
+                            "Type": "TrueFalse",
+                            "Question": "Questão 3",
+                            "Answer": {
+                                "1": true,
+                                "2": true,
+                                "3": false,
+                                "4": true,
+                                "5": true
+                            },
+                            "Weight": 2,
+                            "Required": true
+                        },
+                        "4": {
+                            "Type": "Dissertativa",
+                            "Question": "Questão 4",
+                            "Answer": "ChatGPT é bom e com certeza irá me ajudar",
+                            "Weight": 5,
+                            "Required": true
+                        },
+                        "5": {
+                            "Type": "Radio",
+                            "Question": "Questão Opcional",
+                            "Answer": null,
+                            "Weight": 0,
+                            "Required": false
+                        },
+                        "6": {
+                            "Type": "Numerica",
+                            "Question": "Valor de PI",
+                            "Answer": 3.1415,
+                            "Tolerance": 0.01,
+                            "Weight": 2,
+                            "Required": true
+                        },
+                        "7": {
+                            "Type": "Associacao",
+                            "Question": "Associe corretamente",
+                            "Answer": {
+                                "A": "3",
+                                "B": "1",
+                                "C": "2"
+                            },
+                            "Weight": 3,
+                            "Required": true
+                        },
+                        "8": {
+                            "Type": "Ordem",
+                            "Question": "Ordene corretamente",
+                            "Answer": [
+                                "Mitose",
+                                "Metáfase",
+                                "Anáfase",
+                                "Telófase"
+                            ],
+                            "Weight": 3,
+                            "Required": true
+                        },
+                        "9": {
+                            "Type": "Other",
+                            "Question": "Questão Personalizada",
+                            "Answer": "",
+                            "Weight": 5,
+                            "Required": true
+                        }
+                    },
+                    "Resultados": []
+                },
+                "B": {
+                    "Questoes": {},
+                    "Resultados": []
+                }
+            },
+            "ResultadosGerais": [],
+            "Id": "oi"
+        },
+        "cnxsj bnmvkc ": {
+            "Nome": " ncsfvbcgl~çxfzvmn cohj",
+            "Disciplina": " ,nbpyiolgbíofcgkv ",
+            "Turma": " 5678uio6",
+            "Data": "676767",
+            "Versoes": {},
+            "ResultadosGerais": []
+        }
+    },
+    "Alunos": {
+        "1": {
+            "Nome": "João",
+            "Turma": "2º EM",
+            "Historico": [
+                {
+                    "Prova": "Matematica_Bimestre_1",
+                    "Versao": "A",
+                    "Nota": 8.5,
+                    "Acertos": 17,
+                    "Erros": 3,
+                    "Data": "2026-06-02"
+                },
+                {
+                    "Prova": "",
+                    "Nota": 10.0,
+                    "Detalhes": []
+                },
+                {
+                    "Prova": "Matematica_Bimestre_1",
+                    "Nota": 67.0,
+                    "Detalhes": [
+                        {
+                            "Quest": "1",
+                            "Resposta Aluno": "",
+                            "Resposta Correta": "A",
+                            "Correto": "0",
+                            "Nota": "0",
+                            "Peso": "1"
+                        },
+                        {
+                            "Quest": "2",
+                            "Resposta Aluno": "",
+                            "Resposta Correta": "['B', 'C', 'D']",
+                            "Correto": "0",
+                            "Nota": "0",
+                            "Peso": "1"
+                        },
+                        {
+                            "Quest": "3",
+                            "Resposta Aluno": "",
+                            "Resposta Correta": "{'1': True, '2': True, '3': False, '4': True, '5': True}",
+                            "Correto": "0",
+                            "Nota": "0",
+                            "Peso": "2"
+                        },
+                        {
+                            "Quest": "4",
+                            "Resposta Aluno": "",
+                            "Resposta Correta": "ChatGPT é bom e com certeza irá me ajudar",
+                            "Correto": "0",
+                            "Nota": "0",
+                            "Peso": "5"
+                        },
+                        {
+                            "Quest": "5",
+                            "Resposta Aluno": "",
+                            "Resposta Correta": "None",
+                            "Correto": "0",
+                            "Nota": "0",
+                            "Peso": "0"
+                        },
+                        {
+                            "Quest": "6",
+                            "Resposta Aluno": "",
+                            "Resposta Correta": "3.1415",
+                            "Correto": "0",
+                            "Nota": "0",
+                            "Peso": "2"
+                        },
+                        {
+                            "Quest": "7",
+                            "Resposta Aluno": "",
+                            "Resposta Correta": "{'A': '3', 'B': '1', 'C': '2'}",
+                            "Correto": "0",
+                            "Nota": "0",
+                            "Peso": "3"
+                        },
+                        {
+                            "Quest": "8",
+                            "Resposta Aluno": "",
+                            "Resposta Correta": "['Mitose', 'Metáfase', 'Anáfase', 'Telófase']",
+                            "Correto": "0",
+                            "Nota": "0",
+                            "Peso": "3"
+                        },
+                        {
+                            "Quest": "9",
+                            "Resposta Aluno": "",
+                            "Resposta Correta": "",
+                            "Correto": "0",
+                            "Nota": "0",
+                            "Peso": "5"
+                        }
+                    ]
+                }
+            ],
+            "PossiveisColas": [
+                {
+                    "Aluno": "Pedro",
+                    "Similaridade": 92
+                }
+            ],
+            "Id": "OI"
+        },
+        "oi": {
+            "Nome": "VADA",
+            "Turma": "9º B",
+            "Historico": [],
+            "PossiveisColas": []
+        }
+    }
+}
